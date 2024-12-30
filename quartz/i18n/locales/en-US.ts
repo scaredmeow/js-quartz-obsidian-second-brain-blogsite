@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Created with",
+      ownerSpiel: "My cat thinks I'm a coding wizard. See if he's right at ",
     },
     graph: {
       title: "Graph View",

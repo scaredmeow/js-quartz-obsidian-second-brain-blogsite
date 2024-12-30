@@ -14,6 +14,8 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
+          {i18n(cfg.locale).components.footer.ownerSpiel}{" "}
+          <a href="https://neilriego.me/">neilriego.me</a> 🧙 <br></br>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>

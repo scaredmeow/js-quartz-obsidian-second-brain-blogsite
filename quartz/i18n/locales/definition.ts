@@ -36,6 +36,7 @@ export interface Translation {
     }
     footer: {
       createdWith: string
+      ownerSpiel: string
     }
     graph: {
       title: string
