@@ -1,32 +1,70 @@
 ---
 title: Fork my second brain
 ---
+[![Github](https://user-images.githubusercontent.com/32029746/168943657-88c75d85-67a2-4960-bd92-bf7c3bf03ae1.png)](https://github.com/scaredmeow?tab=repositories)
+<p align="center">
+<!--   <img src="https://gpvc.arturio.dev/scaredmeow" alt="profile views">  -->
+  <img src="https://komarev.com/ghpvc/?username=scaredmeow&color=yellow&base=4324">
+  <a href="https://github.com/scaredmeow">
+    <img src="https://img.shields.io/github/followers/scaredmeow?label=Github&style=social" alt="github">
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=scaredmeow_&tw_p=followbutton">
+    <img src="https://img.shields.io/twitter/follow/scaredmeow_?label=Twitter&style=social" alt="github">
+  </a>
+  <a href="https://www.linkedin.com/in/neilriego/">
+    <img src="https://img.shields.io/badge/- -%232c3e50?label=LinkedIn&style=social&logo=linkedin" alt="linkedin">
+  </a>
+  <a href="mailto:neilchristianriego3@gmail.com">
+    <img src="https://img.shields.io/badge/- -%232c3e50?label=Email&style=social&logo=gmail" alt="gmail">
+  </a>
+  <a href="https://calendly.com/neilriego/book-a-meeting">
+    <img src="https://img.shields.io/badge/- -%232c3e50?label=Book a Meeting with Me&style=social&logo=Google Calendar" alt="Calendly">
+  </a>
+</p>
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+### Hey you my precious **hooman~!** Welcome to my ***purr***-fect workspace <img src="https://emojis.slackmojis.com/emojis/images/1643514738/7421/typingcat.gif?1643514738" width="24px">
 
-Et do id magna esse ex Lorem qui anim velit incididunt sunt culpa. Deserunt id aute dolor anim in ipsum aute duis consequat incididunt ut id id. Cupidatat eu elit proident do exercitation laborum ut. Adipisicing et culpa reprehenderit exercitation duis. Incididunt sit eiusmod adipisicing non id anim exercitation. Eiusmod mollit consequat cillum consectetur in excepteur occaecat. Mollit ipsum aliqua cupidatat sunt Lorem eiusmod id mollit sit sint enim culpa.
+I'm Neil Riego, graduate of **Bachelor's Degree in Computer Science** from the Philippines. I'm enthusiastic about **connecting communities using technology** and i'm achieving this through a Volunteer work in [Kadakareer](https://www.kadakareer.com/) and as a [GDSC](https://developers.google.com/community/gdsc) Lead Alumni. I am a **jack of all trades** and currently pursuing to master Python, especially in **Automation and Data Science**. 
 
-Minim laboris tempor culpa sit nostrud minim Lorem consectetur deserunt veniam in veniam et ullamco. Excepteur officia minim officia culpa eu labore velit est culpa dolor veniam tempor. Id et fugiat cillum exercitation cupidatat dolore enim nostrud aliquip Lorem velit ullamco adipisicing pariatur. Consectetur consectetur veniam quis ullamco id elit cillum aliqua voluptate mollit cupidatat enim eu culpa. Consequat esse quis est incididunt anim elit.
+**Checkout my Life Log at Polywork** _(Maintained by my Cat 😸):_ https://www.polywork.com/scaredmeow <br>
+**I'm also preparing my Website Portoflio** _(Software Engineering and Data Science):_ here i...`meow-i-snatched-the-link` 🐾
 
-Sit enim exercitation Lorem dolore pariatur ad. Anim sit aute consectetur mollit ullamco exercitation. Consectetur culpa irure laborum cupidatat eiusmod magna. Aliquip Lorem sunt eu dolor nostrud. Ex reprehenderit irure sunt in in anim voluptate laboris.
+## My Tech Stack
+![Python](https://img.shields.io/badge/-Python-%232c3e50?style=for-the-badge&logo=python)
+![R](https://img.shields.io/badge/-R-%232c3e50?style=for-the-badge&logo=R)
+![HTML5](https://img.shields.io/badge/-HTML5-%232c3e50?style=for-the-badge&logo=HTML5)
+![CSS3](https://img.shields.io/badge/-CSS3-%232c3e50?style=for-the-badge&logo=CSS3)
+![JS](https://img.shields.io/badge/-Javascript-%232c3e50?style=for-the-badge&logo=javascript)
+![MySQL](https://img.shields.io/badge/-mySQL-%232c3e50?style=for-the-badge&logo=mysql)
+![C](https://img.shields.io/badge/-C-%232c3e50?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/-C++-%232c3e50?style=for-the-badge&logo=C++)
+![Java](https://img.shields.io/badge/-Java-%232c3e50?style=for-the-badge&logo=java)
+![Go](https://img.shields.io/badge/-Go-%232c3e50?style=for-the-badge&logo=go)
+![Dart](https://img.shields.io/badge/-Dart-%232c3e50?style=for-the-badge&logo=dart)
+![GIT](https://img.shields.io/badge/-git-%232c3e50?style=for-the-badge&logo=git)
+![PowerShell](https://img.shields.io/badge/-Powershell-%232c3e50?style=for-the-badge&logo=powershell)
+![Spring](https://img.shields.io/badge/-Spring-%232c3e50?style=for-the-badge&logo=Spring)
+![Django](https://img.shields.io/badge/-django-%232c3e50?style=for-the-badge&logo=django)
+![FastAPI](https://img.shields.io/badge/-FastAPI-%232c3e50?style=for-the-badge&logo=FastAPI)
+![Flask](https://img.shields.io/badge/-Flask-%232c3e50?style=for-the-badge&logo=flask)
+![PyCord](https://img.shields.io/badge/-PyCord-%232c3e50?style=for-the-badge&logo=pycord)
+![Bootstrap](https://img.shields.io/badge/-Boostrap-%232c3e50?style=for-the-badge&logo=bootstrap)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind-%232c3e50?style=for-the-badge&logo=tailwindcss)
 
-Est ut do nisi aute veniam est consequat deserunt non exercitation id. Id commodo aute cupidatat consequat nulla sit excepteur nisi excepteur nostrud deserunt laboris. Sit consectetur aliquip do aliqua in reprehenderit non et. Proident consequat duis laboris et sit ad nostrud laborum reprehenderit velit Lorem voluptate ipsum. Commodo tempor fugiat mollit exercitation consectetur elit dolore ex deserunt do voluptate proident fugiat.
+## Checkout my Github Stats
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" height=150 src="https://github-readme-stats-scaredmeow.vercel.app/api?username=scaredmeow&show_icons=true&count_private=true&theme=apprentice&hide_border=true" />
+  </a> 
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" height=150 src="https://github-readme-stats-scaredmeow.vercel.app/api/top-langs/?username=scaredmeow&layout=compact&langs_count=6" />
+  </a>
+</div>
 
-Laborum cupidatat adipisicing eiusmod est veniam labore labore Lorem quis. Occaecat velit qui occaecat laborum do. Eiusmod qui incididunt ea tempor excepteur amet Lorem et qui esse do minim. Proident laboris fugiat sunt eu tempor Lorem occaecat sit eiusmod dolore. Minim magna nostrud qui dolore eu dolore duis minim anim fugiat excepteur culpa cupidatat.
+___
 
-Do irure esse laboris excepteur fugiat do Lorem. Quis ut sint sint non commodo velit id deserunt est excepteur elit. Consequat proident reprehenderit fugiat sunt. Amet cillum velit reprehenderit nulla.
-
-Ad in duis ullamco eiusmod in do commodo magna Lorem nulla. Adipisicing laboris deserunt dolore in non magna exercitation veniam voluptate reprehenderit cillum sint magna. Occaecat ullamco sunt sit laborum elit reprehenderit et Lorem esse ipsum consequat est elit. Aliqua enim pariatur irure velit ipsum. Aliqua laboris occaecat amet deserunt nisi. Ipsum et anim pariatur proident est et in. Culpa ex mollit id do.
-
-Elit ea ad veniam ullamco sit velit proident qui ad consectetur aute. Ad magna commodo ullamco labore ex aliqua. Ipsum Lorem quis ullamco dolor aute voluptate. Occaecat velit ea sunt esse do eiusmod sunt officia dolor dolor id occaecat adipisicing minim.
-
-Excepteur sit aute laboris est sit cillum. Veniam aliqua sint nostrud reprehenderit proident labore Lorem laborum id sit. In aliquip consequat commodo fugiat commodo dolore incididunt dolor et. Ullamco pariatur laborum quis ullamco quis exercitation.
-
-Minim Lorem eiusmod ea consectetur. Sunt ad duis incididunt duis ipsum laborum voluptate deserunt ad eiusmod minim aliqua ullamco. Nisi aliqua deserunt officia incididunt cillum eiusmod nulla tempor in Lorem sint ut non ullamco.
-
-Aliqua aliquip aute in irure voluptate. Sit Lorem eu in tempor dolor aliquip veniam deserunt eiusmod culpa consectetur velit eu. Elit cillum mollit magna exercitation cupidatat culpa aliqua sint cillum officia. Enim magna proident incididunt nulla id anim excepteur. Do adipisicing sunt labore esse ipsum aliqua anim sunt sit sint anim proident nisi dolor.
-
-Minim pariatur dolor nulla Lorem laborum qui aute exercitation aute. Ut laborum amet esse proident aute nulla voluptate nostrud. Occaecat commodo sint est cupidatat aliquip anim occaecat ex. Commodo laborum cillum velit dolore elit nisi aliquip enim. Ut consequat id adipisicing sint nostrud aliquip et qui. Eu sit officia et cupidatat ipsum do culpa esse labore anim do.
-
-Sint enim eiusmod ad ut. Exercitation nisi magna fugiat exercitation magna minim reprehenderit nostrud nisi nostrud eu nostrud. Do nostrud laborum magna voluptate dolore.
+<div align="center">
+  
+``` always-under-construction-please-donate-some-catnip-meow~ ```
+  
+</div>
