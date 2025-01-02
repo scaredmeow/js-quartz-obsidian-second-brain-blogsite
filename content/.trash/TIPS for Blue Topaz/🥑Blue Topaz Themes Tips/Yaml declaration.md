@@ -1,0 +1,1 @@
+Required to make a declaration at `YAML` of the note.
