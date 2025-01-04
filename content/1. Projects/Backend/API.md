@@ -8,10 +8,51 @@ tags:
 **Pre-requisites**
 - Postman
 
-An **API (Application Programming Interface)** is a way for two systems or applications to communicate and exchange information. APIs act as a bridge, allowing different software components to interact without knowing how each one works internally. For example:
+Backend - General or Umbrella Term - that encompasses multiple components
 
+**Fullstack Languages**
+Tightly Coupled system -> Dependent yung frontend or client sa backend code
+- Will not develop API, but can still interact with third party APIs
+
+Separate Development (Frontend and Backend)
+Decoupled -> Independently developed
+- Client
+- Server
+**Deployment**
+- In one deployment server -> if frontend is down, backend is also down
+- separate - best practice -> 2vm(ec2) or (1 cdn (static site deployment - lightsail, amplify) and 1 vm)
+- Client -> Server
+
+**Microservices**
+- 3 small backend service
+	- server -> server
+
+Type of Backend
+- Monolithic
+	- Features
+- Microservices
+	- 
+
+
+---
+
+An **API (Application Programming Interface)** is a way for **two systems** or applications to communicate and exchange information. APIs act as a bridge, allowing different software components to interact without knowing how each one works internally. For example:
 - A weather app uses an API to fetch real-time weather data from a remote server.
 - A payment gateway like PayPal provides APIs for online stores to process payments.
+
+**Use cases of API**
+Client -> Server (Common Use Case) -> RESTful API, GRAPHQL, SOAP, Websocket
+	- Mobile Client -> Server
+	- Web Client -> Server
+	- Desktop Client -> Server
+
+Server -> Server -> GRPC
+	- Backend to Backend, Machine to Machine or System to System
+	- Commonly use in Microservices
+		- Facebook
+			- Marketplace -> Individual App
+			- Messenger -> Individual App
+			- Social Media Wall -> Individual App
 
 APIs simplify integration, enabling developers to build more complex applications by leveraging existing services.
 
@@ -23,25 +64,44 @@ APIs can use various communication protocols, including:
     - Most common.
     - Stateless, meaning each request from the client contains all the information needed to process it.
     - Uses HTTP for communication.
+    - JSON - Data format
+	    - Data is already pre-formatted
+	    - API defines the data you get
 
 2. **SOAP (Simple Object Access Protocol)**:
     - A stricter protocol with XML-based messaging.
     - Common in enterprise systems for high-security transactions.
+    - XML - Data format
 
 3. **GraphQL**:
     - Flexible query language allowing clients to specify the exact data they need.
     - Commonly used for modern apps.
+    - JSON - Data format
+	    - The client shape the data structure
+	    - You define what data you need
+	- Used in Serverless First Architecture
+		- AWS Appsync
+	- Use Cases
+		- Frontend that doesn't want to do backend since it gives you freedom to choose data to access
 
 4. **gRPC**:
     - Efficient binary protocol for high-performance APIs.
     - Often used in microservices and real-time communication.
+    - Protobuff - Data Format
+    - Use case
+	    - System - System (Microservices)
 
 5. **WebSockets**:
     - Enables full-duplex communication for real-time apps like chat or live notifications.
+	    - Two protocols TCP (short live)
+		    - TCP always do three way handshake, which terminates a communication after a successful handshake thus making it short live
+	    - UDP (long live)
+		    - Creates a connection at first then leaves it until terminated
+	- Use Case
+		- Live Chat or anything that requires long live connections
 
 
 ### What are HTTP Methods?
-
 ![[Pasted image 20250104213732.png]]
 *from https://blog.bytebytego.com/p/design-effective-and-secure-rest*
 
@@ -151,7 +211,7 @@ A typical API endpoint consists of:
 Example:
 
 ```bash
-curl -X GET "https://pokeapi.co/api/v2/pokemon?limit=2&offset=0"
+curl -X GET "https://pokeapi.co/api/{version}/pokemon?limit=2&offset=0"
 ```
 
 Result:
@@ -173,10 +233,21 @@ Result:
 }
 ```
 
+- `https://www.youtube.com/results?search_query=asdas`
+- Domain: `https://www.youtube.com/`
+- Path: `/results`
+- Query: `search_query=asdas`
+
+
+- **Full Path**: `https://pokeapi.co/api/v2/pokemon?limit=2&offset=0
 - **Domain**: `https://pokeapi.co`
-- **Path**: `/api/v2/pokemon`
-- **Path Parameter**: `v2`
-- **Query Parameter**: `limit=2&offset=0`
+- **API Path, Endpoint**: `/api/v2/pokemon`
+- **Path Parameter**: `v2` -> Note: Path parameter is commonly represented by curly braces
+	- system defined -> system resource
+	- example: path parameter -> mas mabilis gawin
+- **Query Parameter**: `limit=2&offset=0` -> Note: Query Parameter is commonly represented after question mark
+	- user defined -> value have freedom to be defined
+	- example: query parameter -> search(all is query param), limit, offset, page
 - **HTTP Method**: `GET Method`
 	- `-X GET`: Specifies the HTTP method (GET is the default, so this part is optional)
 
