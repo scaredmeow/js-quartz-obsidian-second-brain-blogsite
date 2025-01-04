@@ -5,6 +5,8 @@ tags:
   - API
   - Restful
 ---
+**Pre-requisites**
+- Postman
 
 An **API (Application Programming Interface)** is a way for two systems or applications to communicate and exchange information. APIs act as a bridge, allowing different software components to interact without knowing how each one works internally. For example:
 
