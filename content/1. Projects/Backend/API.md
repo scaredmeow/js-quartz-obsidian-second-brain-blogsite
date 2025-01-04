@@ -37,15 +37,46 @@ APIs can use various communication protocols, including:
 5. **WebSockets**:
     - Enables full-duplex communication for real-time apps like chat or live notifications.
 
+
 ### What are HTTP Methods?
+
+![[Pasted image 20250104213732.png]]
+*from https://blog.bytebytego.com/p/design-effective-and-secure-rest*
 
 HTTP methods are verbs used to tell an API what action to perform:
 
 - **GET**: Retrieve data (e.g., `GET /users` for a list of users).
-- **[[POST]]**: Create new data (e.g., `POST /users` to add a new user).
+- **POST**: Create new data (e.g., `POST /users` to add a new user).
 - **PUT**: Update existing data completely (e.g., `PUT /users/123` to replace user data).
 - **PATCH**: Update part of the data (e.g., `PATCH /users/123` to change a user's email).
 - **DELETE**: Remove data (e.g., `DELETE /users/123` to delete a user).
+
+Things that are nice to know:
+- **Idempotent**: A method is idempotent if making the same request multiple times results in the same state on the server (e.g., GET, PUT, DELETE).
+- **Cachable**: If the response can be stored and reused for subsequent requests, it’s cachable (e.g., GET responses).
+
+### What is JSON in the Context of APIs?
+
+**JSON (JavaScript Object Notation)** is a lightweight data format used to exchange information between a client and a server in APIs. It's widely used because it's easy for both humans and machines to read and write. In APIs, JSON serves as the "package" that carries the data being sent and received.
+
+### JSON in API Requests
+
+When sending data to an API (e.g., with a `POST` or `PUT` request), JSON is often used in the **[[request body]]**. For example:
+
+- **Request Example**:
+    
+```http
+POST /users Content-Type: application/json  
+{     
+	"name": "Ash",     
+	"age": 10,     
+	"trainer": true 
+}
+```
+
+Here:
+- `Content-Type: application/json` tells the server that the data is in JSON format.
+- The JSON body contains the user information (`name`, `age`, and `trainer`).
 
 ### What is the Structure of a Typical API Endpoint?
 
@@ -107,3 +138,72 @@ Status codes indicate the result of an API request. Common codes include:
 curl -X GET "https://http.cat/102.jpg" --output 102.jpg
 ```
 
+### **Basic REST API Calling**
+
+#### **JavaScript**
+
+1. **Using Fetch API**:
+```javascript
+fetch('https://pokeapi.co/api/v2/pokemon?limit=2&offset=0')   
+.then(response => response.json())   
+.then(data => console.log(data))   
+.catch(error => console.error('Error:', error));
+```
+
+2. **Using Axios**:
+
+```javascript
+import axios from 'axios';  
+
+axios.get('https://pokeapi.co/api/v2/pokemon?limit=2&offset=0')   
+.then(response => console.log(response.data))   
+.catch(error => console.error('Error:', error));
+```
+
+#### **Python**
+1. **Using `requests`**:
+
+```python
+import requests  
+response = requests.get('https://pokeapi.co/api/v2/pokemon?limit=2&offset=0') 
+if response.status_code == 200:     
+	print(response.json()) 
+else:
+	print(f"Error: {response.status_code}")
+```
+
+2. **Using `http.client`**:
+
+```python
+from http.client 
+import HTTPSConnection  
+conn = HTTPSConnection("pokeapi.co") 
+conn.request("GET", "/api/v2/pokemon?limit=2&offset=0") 
+
+response = conn.getresponse() 
+
+if response.status == 200:     
+	print(response.read().decode()) 
+else:     
+	print(f"Error: {response.status}")
+```
+
+#### **cURL**
+`cURL` (short for **Client URL**) is a command-line tool used to transfer data to and from servers using various protocols, including HTTP, HTTPS, FTP, SMTP, and more. It's commonly used for testing APIs, downloading files, or automating web interactions.
+
+```bash
+curl -X GET "https://pokeapi.co/api/v2/pokemon?limit=2&offset=0"
+```
+
+or you can add `| jq` to pretty print the output
+
+```bash
+curl -X GET "https://pokeapi.co/api/v2/pokemon?limit=2&offset=0" | jq
+```
+
+#### **Using API Documentation**
+
+You can use tools like:
+
+- **Swagger**: If available, Swagger UI for PokeAPI can help you test the endpoint interactively.
+- **Postman**: Import the endpoint `https://pokeapi.co/api/v2/pokemon?limit=2&offset=0`, set the method to `GET`, and send the request to view the response.
